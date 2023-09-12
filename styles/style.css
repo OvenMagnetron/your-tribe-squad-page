@@ -1,0 +1,49 @@
+/* Reset */
+body {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.header>div {
+    font-family: 'Montserrat';
+    color: black;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+}
+
+.header1 {
+    order: 1;
+}
+
+.header2 {
+    order: 2;
+}
+
+.header3 {
+    order: 3;
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: unset;
+    font-family: 'Modak';
+    text-align: center;
+}
+
+.header h2 {
+    font-weight: 26px;
+    font-weight: 400;
+}
