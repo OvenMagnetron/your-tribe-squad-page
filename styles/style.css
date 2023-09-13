@@ -14,7 +14,6 @@ body {
 .header>div {
     font-family: 'Montserrat';
     color: black;
-    padding: 20px;
     margin: auto;
     width: 50%;
 }
@@ -46,6 +45,12 @@ body {
 .header h2 {
     font-weight: 26px;
     font-weight: 400;
+}
+
+a {
+    color: unset;
+    cursor: pointer;
+    text-decoration: unset;
 }
 
 /* Body */
