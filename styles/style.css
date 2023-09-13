@@ -4,46 +4,31 @@ body {
 }
 
 /* Header */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
+header {
+    background-color: #e7e7e7;
 }
 
-.header>div {
+header>ul {
     font-family: 'Montserrat';
     color: black;
     margin: auto;
     width: 50%;
 }
 
-.header1 {
-    order: 1;
-}
-
-.header2 {
-    order: 2;
-}
-
-.header3 {
-    order: 3;
-}
-
-.header p {
+header p {
     font-size: 18px;
     font-weight: normal;
 }
 
-.header h1 {
+header h1 {
     font-size: 60px;
     font-weight: unset;
     font-family: 'Modak';
     text-align: center;
 }
 
-.header h2 {
-    font-weight: 26px;
+header h2 {
+    font-size: 26px;
     font-weight: 400;
 }
 
@@ -53,6 +38,74 @@ a {
     text-decoration: unset;
 }
 
+header ul {
+    display: flex;
+    list-style-type: unset;
+    margin-block-start: unset;
+    margin-block-end: unset;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
+    padding-inline-start: unset;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5em;
+}
+
+header li {
+    display: unset;
+    text-align: -webkit-match-parent;
+}
+
 /* Body */
+main {
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #2f1d58;
+    overflow: visible;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.flexContainer article {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 0;
+}
+
+.flexContainer article:nth-child(1) {
+    background-color: red;
+}
+
+.flexContainer article:nth-child(2) {
+    background-color: blue;
+}
+
+.flexContainer article:nth-child(3) {
+    background-color: green;
+}
+
+.flexContainer article:nth-child(4) {
+    background-color: yellow;
+}
+
+
+.flexContainer .squadImage {
+    max-width: 400px;
+    max-height: 400px;
+    position: absolute;
+    left: 40;
+    bottom: 0;
+}
 
 /* Footer */
