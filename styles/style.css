@@ -79,7 +79,6 @@ main {
     text-align: center;
     overflow: visible;
     flex-direction: row;
-    background-color: #D6EAEE;
 }
 
 .container article {
@@ -166,6 +165,12 @@ footer {
 
 @media (max-width: 580px) {
     .container article {
-        flex: 100%;
+        flex: 50%;
+    }
+
+    .squadImage {
+        object-fit: cover;
+        max-height: 250px;
+        min-height: 250px;
     }
 }
