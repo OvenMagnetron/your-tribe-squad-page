@@ -116,6 +116,10 @@ description {
 }
 
 /* Footer */
+footer {
+    display: none;
+}
+
 @media (max-width: 800px) {
     .container article {
         flex: 50%;
@@ -142,8 +146,8 @@ description {
         flex-direction: row;
     }
 
-    footer article {
-        padding-top: 1em;
+    footer ul {
+        padding-top: 1.5em;
         padding-bottom: 1em;
     }
 
@@ -153,9 +157,14 @@ description {
         margin: auto;
         width: 50%;
     }
+
+    footer ul li {
+        color: white;
+        font-size: 130%;
+    }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 580px) {
     .container article {
         flex: 100%;
     }
