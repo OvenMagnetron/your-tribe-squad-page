@@ -128,7 +128,8 @@ footer {
     /* Footer niet zichtbaar */
 }
 
-.phone {
+.phone,
+.white {
     display: none;
 }
 
@@ -139,12 +140,22 @@ footer {
         flex: 50%;
     }
 
+    .container article:nth-child(21),
+    .container article:nth-child(22) {
+        margin-bottom: 20%;
+    }
+
     header h2 {
         display: none;
     }
 
     .phone {
         display: unset;
+    }
+
+    .white {
+        display: unset;
+        height: 30px;
     }
 
     footer {
