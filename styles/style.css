@@ -35,6 +35,14 @@ footer h2 {
     font-weight: 400;
 }
 
+h2 {
+    font-family: 'Inter';
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
 a {
     color: unset;
     cursor: pointer;
@@ -117,9 +125,12 @@ description {
 /* Footer */
 footer {
     display: none;
+    /* Footer niet zichtbaar */
 }
 
 @media (max-width: 800px) {
+
+    /* Vanaf de breedte 800px wordt het volgende gedaan */
     .container article {
         flex: 50%;
     }
@@ -129,6 +140,7 @@ footer {
     }
 
     footer {
+        /* Footer zichtbaar voor mobiel */
         position: fixed;
         left: 0;
         bottom: 0;
@@ -164,8 +176,11 @@ footer {
 }
 
 @media (max-width: 580px) {
+
+    /* Voor schermen onder 580pixels breed */
     .squadImage {
         object-fit: cover;
+        /* Image resizen en fixen */
         max-height: 250px;
         min-height: 250px;
     }
