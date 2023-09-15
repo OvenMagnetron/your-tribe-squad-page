@@ -184,4 +184,8 @@ footer {
         max-height: 250px;
         min-height: 250px;
     }
+
+    .description {
+        font-size: 12px;
+    }
 }
