@@ -164,10 +164,6 @@ footer {
 }
 
 @media (max-width: 580px) {
-    .container article {
-        flex: 50%;
-    }
-
     .squadImage {
         object-fit: cover;
         max-height: 250px;
