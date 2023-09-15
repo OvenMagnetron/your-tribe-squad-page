@@ -133,6 +133,10 @@ footer {
     display: none;
 }
 
+.disabled {
+    display: none;
+}
+
 @media (max-width: 800px) {
 
     /* Vanaf de breedte 800px wordt het volgende gedaan */
