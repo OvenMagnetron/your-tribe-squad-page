@@ -139,6 +139,10 @@ footer {
 }
 
 /* Home */
+.intro {
+    max-width: 25%;
+}
+
 .slogan h2 {
     font-size: 60px;
     font-weight: 600;
@@ -197,6 +201,9 @@ article p {
     .container.home article {
         flex: 50%;
     }
+    .intro {
+        max-width: 50%;
+    }
 }
 
 @media (max-width: 800px) {
@@ -204,6 +211,10 @@ article p {
     /* Vanaf de breedte 800px wordt het volgende gedaan */
     .container article {
         flex: 50%;
+    }
+
+    .intro {
+        max-width: 75%;
     }
 
     .container.home article {
@@ -277,4 +288,11 @@ article p {
     .description {
         font-size: 12px;
     }
+}
+
+@media (max-width: 400px) {
+    footer ul li {
+        font-size: 100%;
+    }
+
 }
