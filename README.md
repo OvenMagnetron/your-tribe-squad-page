@@ -12,7 +12,7 @@ Dit is onze Squadpage.
   * [👾 Licentie](#licentie)  
 
 ## 📝Beschrijving
-** Userstory: Als squadlid wil ik andere squadleden kunnen zien en hun leren kennen.**
+**Userstory: Als squadlid wil ik andere squadleden kunnen zien en hun leren kennen.**
 
 Ons groepproject was gericht op het maken van een squadpagina voor ons team waar iedereen elkaar kan leren kennen.
 
