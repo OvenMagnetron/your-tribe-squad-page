@@ -209,6 +209,10 @@ article p {
     .intro {
         max-width: 50%;
     }
+
+    header .logo {
+        max-width: 75px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -233,6 +237,10 @@ article p {
 
     header {
         margin-top: 5%
+    }
+
+    header .logo {
+        max-width: 75px;
     }
 
     header h2 {
