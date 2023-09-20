@@ -201,9 +201,13 @@ article p {
     font-size: 17px;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
     .container.home article {
         flex: 50%;
+    }
+
+    .container.home description {
+        width: 400px;
     }
 
     .intro {
@@ -228,6 +232,10 @@ article p {
 
     .container.home article {
         flex: 50%;
+    }
+
+    .container.home description {
+        width: 230px;
     }
 
     .container article:nth-child(21),
