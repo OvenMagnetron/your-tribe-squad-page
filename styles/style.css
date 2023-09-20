@@ -5,7 +5,7 @@ body {
 
 /* Header */
 header {
-    background-color: #e7e7e7;
+    margin-top: 2%
 }
 
 header>ul {
@@ -14,6 +14,10 @@ header>ul {
     margin: auto;
     width: 50%;
     font-weight: 600;
+}
+
+header .logo {
+    max-width: 100px;
 }
 
 header p,
@@ -75,8 +79,8 @@ footer li {
 main {
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 5%;
     margin-bottom: 5%;
+    margin-top: 1.83em;
 }
 
 .container {
@@ -140,12 +144,12 @@ footer {
 
 /* Home */
 .intro {
-    max-width: 25%;
+    max-width: 35%;
 }
 
 .slogan h2 {
     font-size: 60px;
-    font-weight: 600;
+    font-weight: bolder;
     font-family: 'Inter';
     text-align: left;
     line-height: 73px;
@@ -183,8 +187,8 @@ article p {
 }
 
 .container.home description {
-    width: 300px;
-    text-align: center;
+    width: 280px;
+    text-align: left;
     margin-right: auto;
     margin-left: auto;
 }
@@ -201,6 +205,7 @@ article p {
     .container.home article {
         flex: 50%;
     }
+
     .intro {
         max-width: 50%;
     }
@@ -224,6 +229,10 @@ article p {
     .container article:nth-child(21),
     .container article:nth-child(22) {
         margin-bottom: 20%;
+    }
+
+    header {
+        margin-top: 5%
     }
 
     header h2 {
